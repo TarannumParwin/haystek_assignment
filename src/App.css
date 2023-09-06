@@ -1,38 +1,98 @@
-.App {
+/* Styling for the entire page */
+body {
+  background-color: skyblue;
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/* Styling for the "PEOPLE DATA" heading */
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #f7f7f7;
+  margin-right: 30vh;
+}
+
+/* Styling for the container of person data */
+.person-data-page {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+/* Styling for the "Next Person" button */
+.next-button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  padding: 15px 30px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Styling for the form and fields */
+.form {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.field {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f7f7f7;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.input-group {
+  display: grid;
+  display: grid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.index-label {
+  font-weight: bold;
+  width: 30px 20px;
+  color: #f7f7f7;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 21px 15px;
+  font-size: 40px;
+  background-color: lightgreen;
+  margin-left: 10cm;
+}
+
+/* Styling for name and location fields */
+.name {
+  background-color: #ccc;
+  padding: 10px 20px;
+  width: 80vh;
+  color: #333;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 10px 0 0;
+}
+
+.location {
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 0 10px 0;
+  padding: 10px 20px;
+}
+
+/* Styling for "CURRENTLY 3 PEOPLE SHOWING" */
+h5 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
 }
